@@ -3,9 +3,9 @@ entries:
   mysqldump:
   - apiVersion: v2
     appVersion: v3.2.13
-    created: "2025-10-10T11:58:31.845076-07:00"
+    created: "2025-10-10T12:01:06.53881-07:00"
     description: A Helm chart to help backup MySQL databases using mysqldump
-    digest: b21303d4a34aeeb0c977ffb71284ead88a0ee801560c75799f021741d9a1522c
+    digest: fe84b4f504e1ae587f30d57010d5ced20f41dffba375ba0e5ffa01838abe345f
     home: https://www.mysql.com/
     icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
     keywords:
@@ -22,6 +22,6 @@ entries:
     - https://github.com/kokuwaio/gcloud-mysql
     type: application
     urls:
-    - https://tk2023.github.io/helm/mysqldump-7.0.1.tgz
-    version: 7.0.1
-generated: "2025-10-10T11:58:31.843914-07:00"
+    - https://tk2023.github.io/helm/mysqldump-7.0.2.tgz
+    version: 7.0.2
+generated: "2025-10-10T12:01:06.536644-07:00"
