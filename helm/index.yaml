@@ -1,9 +1,21 @@
 apiVersion: v1
 entries:
+  argocd-backup-s3:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-10-10T12:20:27.550632-07:00"
+    description: Kubernetes CronJob to backup ArgoCD with `argocd admin export` cmd
+      and upload to S3 compatible storage
+    digest: 9250f8ed8598ea306e5ddcd88b22f21a84b73a876f7a9e562276eee3c678f386
+    name: argocd-backup-s3
+    type: application
+    urls:
+    - https://tk2023.github.io/helm/argocd-backup-s3-0.1.0.tgz
+    version: 0.1.0
   mysqldump:
   - apiVersion: v2
     appVersion: v3.2.13
-    created: "2025-10-10T12:01:06.53881-07:00"
+    created: "2025-10-10T12:20:27.551127-07:00"
     description: A Helm chart to help backup MySQL databases using mysqldump
     digest: fe84b4f504e1ae587f30d57010d5ced20f41dffba375ba0e5ffa01838abe345f
     home: https://www.mysql.com/
@@ -24,4 +36,4 @@ entries:
     urls:
     - https://tk2023.github.io/helm/mysqldump-7.0.2.tgz
     version: 7.0.2
-generated: "2025-10-10T12:01:06.536644-07:00"
+generated: "2025-10-10T12:20:27.550067-07:00"
