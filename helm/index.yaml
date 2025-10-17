@@ -3,7 +3,7 @@ entries:
   argocd-backup-s3:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-10-17T00:51:48.442624-07:00"
+    created: "2025-10-17T08:52:59.248735-07:00"
     description: Kubernetes CronJob to backup ArgoCD with `argocd admin export` cmd
       and upload to S3 compatible storage
     digest: 9250f8ed8598ea306e5ddcd88b22f21a84b73a876f7a9e562276eee3c678f386
@@ -15,7 +15,7 @@ entries:
   mysqldump:
   - apiVersion: v2
     appVersion: v3.2.13
-    created: "2025-10-17T00:51:48.443219-07:00"
+    created: "2025-10-17T08:52:59.249674-07:00"
     description: A Helm chart to help backup MySQL databases using mysqldump
     digest: fe84b4f504e1ae587f30d57010d5ced20f41dffba375ba0e5ffa01838abe345f
     home: https://www.mysql.com/
@@ -39,7 +39,27 @@ entries:
   phpbb:
   - apiVersion: v2
     appVersion: "3.3"
-    created: "2025-10-17T00:51:48.444667-07:00"
+    created: "2025-10-17T08:52:59.250641-07:00"
+    description: A lightweight, Bitnami-free Helm chart to deploy phpBB with persistent
+      storage.
+    digest: 14a4f7b9f110e9ed350252693ff9ba7a8172f670fcd6db9a2ddb59ec0c1e7b54
+    home: https://www.phpbb.com/
+    keywords:
+    - phpbb
+    - forum
+    - bulletin-board
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: example@example.com
+      name: ChatGPT
+    name: phpbb
+    type: application
+    urls:
+    - phpbb-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: "3.3"
+    created: "2025-10-17T08:52:59.250203-07:00"
     description: A lightweight, Bitnami-free Helm chart to deploy phpBB with persistent
       storage.
     digest: 5d57426a9bbf98cc39cf8affeaa8f3c7371c75495af10befc2cf734cd1d8df8a
@@ -57,44 +77,4 @@ entries:
     urls:
     - phpbb-0.1.4.tgz
     version: 0.1.4
-  - apiVersion: v2
-    appVersion: "3.3"
-    created: "2025-10-17T00:51:48.444363-07:00"
-    description: A lightweight, Bitnami-free Helm chart to deploy phpBB with persistent
-      storage.
-    digest: ea04ff5e69da2bbd94d97aa519e914773bc0d06a10a994934c93af5c7665d1d3
-    home: https://www.phpbb.com/
-    keywords:
-    - phpbb
-    - forum
-    - bulletin-board
-    kubeVersion: '>=1.23.0-0'
-    maintainers:
-    - email: example@example.com
-      name: ChatGPT
-    name: phpbb
-    type: application
-    urls:
-    - phpbb-0.1.3.tgz
-    version: 0.1.3
-  - apiVersion: v2
-    appVersion: "3.3"
-    created: "2025-10-17T00:51:48.44357-07:00"
-    description: A lightweight, Bitnami-free Helm chart to deploy phpBB with persistent
-      storage.
-    digest: c71e6d28454d29d2bc6d8398ea08a1d1e9bcdc5dad405abc8ef1188fa3bbeba3
-    home: https://www.phpbb.com/
-    keywords:
-    - phpbb
-    - forum
-    - bulletin-board
-    kubeVersion: '>=1.23.0-0'
-    maintainers:
-    - email: example@example.com
-      name: ChatGPT
-    name: phpbb
-    type: application
-    urls:
-    - phpbb-0.1.2.tgz
-    version: 0.1.2
-generated: "2025-10-17T00:51:48.441968-07:00"
+generated: "2025-10-17T08:52:59.248044-07:00"
