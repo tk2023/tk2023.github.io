@@ -3,7 +3,7 @@ entries:
   argocd-backup-s3:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-10-16T23:43:28.10879-07:00"
+    created: "2025-10-17T00:44:07.394149-07:00"
     description: Kubernetes CronJob to backup ArgoCD with `argocd admin export` cmd
       and upload to S3 compatible storage
     digest: 9250f8ed8598ea306e5ddcd88b22f21a84b73a876f7a9e562276eee3c678f386
@@ -15,7 +15,7 @@ entries:
   mysqldump:
   - apiVersion: v2
     appVersion: v3.2.13
-    created: "2025-10-16T23:43:28.109234-07:00"
+    created: "2025-10-17T00:44:07.394629-07:00"
     description: A Helm chart to help backup MySQL databases using mysqldump
     digest: fe84b4f504e1ae587f30d57010d5ced20f41dffba375ba0e5ffa01838abe345f
     home: https://www.mysql.com/
@@ -39,10 +39,10 @@ entries:
   phpbb:
   - apiVersion: v2
     appVersion: "3.3"
-    created: "2025-10-16T23:43:28.112613-07:00"
+    created: "2025-10-17T00:44:07.394954-07:00"
     description: A lightweight, Bitnami-free Helm chart to deploy phpBB with persistent
       storage.
-    digest: e477dfca46594927d2505d4410ebcdc6b24b38262c0344038e9269c35add0794
+    digest: c71e6d28454d29d2bc6d8398ea08a1d1e9bcdc5dad405abc8ef1188fa3bbeba3
     home: https://www.phpbb.com/
     keywords:
     - phpbb
@@ -55,26 +55,6 @@ entries:
     name: phpbb
     type: application
     urls:
-    - phpbb-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: "3.3"
-    created: "2025-10-16T23:43:28.109585-07:00"
-    description: A lightweight, Bitnami-free Helm chart to deploy phpBB with persistent
-      storage.
-    digest: 3c2da83c1518a9ecdd317766bfdfd4d778cd353d1049bfb427ab710cbf6bf729
-    home: https://www.phpbb.com/
-    keywords:
-    - phpbb
-    - forum
-    - bulletin-board
-    kubeVersion: '>=1.23.0-0'
-    maintainers:
-    - email: example@example.com
-      name: ChatGPT
-    name: phpbb
-    type: application
-    urls:
-    - phpbb-0.1.0.tgz
-    version: 0.1.0
-generated: "2025-10-16T23:43:28.108252-07:00"
+    - phpbb-0.1.2.tgz
+    version: 0.1.2
+generated: "2025-10-17T00:44:07.392884-07:00"
