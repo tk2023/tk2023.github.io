@@ -3,7 +3,7 @@ entries:
   argocd-backup-s3:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-10-17T09:45:17.61588-07:00"
+    created: "2025-10-17T10:18:00.49225-07:00"
     description: Kubernetes CronJob to backup ArgoCD with `argocd admin export` cmd
       and upload to S3 compatible storage
     digest: 9250f8ed8598ea306e5ddcd88b22f21a84b73a876f7a9e562276eee3c678f386
@@ -15,7 +15,7 @@ entries:
   mysqldump:
   - apiVersion: v2
     appVersion: v3.2.13
-    created: "2025-10-17T09:45:17.61683-07:00"
+    created: "2025-10-17T10:18:00.492779-07:00"
     description: A Helm chart to help backup MySQL databases using mysqldump
     digest: fe84b4f504e1ae587f30d57010d5ced20f41dffba375ba0e5ffa01838abe345f
     home: https://www.mysql.com/
@@ -39,7 +39,27 @@ entries:
   phpbb:
   - apiVersion: v2
     appVersion: "3.3"
-    created: "2025-10-17T09:45:17.617167-07:00"
+    created: "2025-10-17T10:18:00.493376-07:00"
+    description: A lightweight, Bitnami-free Helm chart to deploy phpBB with persistent
+      storage.
+    digest: b67690b913bd078e3f7886eb9e27d9165bc04d18b9988e2cb86be0d8fc2ebdce
+    home: https://www.phpbb.com/
+    keywords:
+    - phpbb
+    - forum
+    - bulletin-board
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: example@example.com
+      name: ChatGPT
+    name: phpbb
+    type: application
+    urls:
+    - phpbb-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: "3.3"
+    created: "2025-10-17T10:18:00.493163-07:00"
     description: A lightweight, Bitnami-free Helm chart to deploy phpBB with persistent
       storage.
     digest: 62da696ddb4a014b0f205e85118e9b3ef31b9836f30dfeb30c958f3b87974a95
@@ -57,4 +77,4 @@ entries:
     urls:
     - phpbb-0.1.6.tgz
     version: 0.1.6
-generated: "2025-10-17T09:45:17.615212-07:00"
+generated: "2025-10-17T10:18:00.491594-07:00"
