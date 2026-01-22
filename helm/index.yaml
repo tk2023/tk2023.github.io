@@ -3,7 +3,7 @@ entries:
   argocd-backup-s3:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-01-22T12:51:26.729449-08:00"
+    created: "2026-01-22T13:02:50.381953-08:00"
     description: Kubernetes CronJob to backup ArgoCD with `argocd admin export` cmd
       and upload to S3 compatible storage
     digest: 9250f8ed8598ea306e5ddcd88b22f21a84b73a876f7a9e562276eee3c678f386
@@ -15,7 +15,7 @@ entries:
   mysqldump:
   - apiVersion: v2
     appVersion: v3.2.13
-    created: "2026-01-22T12:51:26.7304-08:00"
+    created: "2026-01-22T13:02:50.38239-08:00"
     description: A Helm chart to help backup MySQL databases using mysqldump
     digest: fe84b4f504e1ae587f30d57010d5ced20f41dffba375ba0e5ffa01838abe345f
     home: https://www.mysql.com/
@@ -39,7 +39,7 @@ entries:
   phpbb:
   - apiVersion: v2
     appVersion: "3.3"
-    created: "2026-01-22T12:51:26.731858-08:00"
+    created: "2026-01-22T13:02:50.383447-08:00"
     description: A lightweight, Bitnami-free Helm chart to deploy phpBB with persistent
       storage.
     digest: f4f2a9cec0e70ec5e9c0633e249cd61f215cf4b8c368de7cb519ff1b94214326
@@ -59,7 +59,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: "3.3"
-    created: "2026-01-22T12:51:26.731263-08:00"
+    created: "2026-01-22T13:02:50.383074-08:00"
     description: A lightweight, Bitnami-free Helm chart to deploy phpBB with persistent
       storage.
     digest: c65d372021cbf8c105450e9766115fb409acedc61f69147322cb8446b7b63f71
@@ -79,7 +79,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: "3.3"
-    created: "2026-01-22T12:51:26.730877-08:00"
+    created: "2026-01-22T13:02:50.382762-08:00"
     description: A lightweight, Bitnami-free Helm chart to deploy phpBB with persistent
       storage.
     digest: b67690b913bd078e3f7886eb9e27d9165bc04d18b9988e2cb86be0d8fc2ebdce
@@ -100,7 +100,27 @@ entries:
   postgresql:
   - apiVersion: v2
     appVersion: "18.1"
-    created: "2026-01-22T12:51:26.732099-08:00"
+    created: "2026-01-22T13:02:50.384054-08:00"
+    description: A Helm chart for deploying PostgreSQL on Kubernetes
+    digest: 8abfaec460ee680c80d58837ea47e8abc0d87ddb2c1e283a9a3fedb66b2d699a
+    home: https://www.postgresql.org/
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    maintainers:
+    - name: homelab
+    name: postgresql
+    sources:
+    - https://github.com/docker-library/postgres
+    type: application
+    urls:
+    - postgresql-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: "18.1"
+    created: "2026-01-22T13:02:50.38369-08:00"
     description: A Helm chart for deploying PostgreSQL on Kubernetes
     digest: ada56cfd9262600f41dbf2e7dc321eab142beba3e33bf38826fe29901d00d319
     home: https://www.postgresql.org/
@@ -118,4 +138,4 @@ entries:
     urls:
     - postgresql-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-22T12:51:26.728757-08:00"
+generated: "2026-01-22T13:02:50.381398-08:00"
