@@ -3,7 +3,7 @@ entries:
   argocd-backup-s3:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-01-27T08:59:29.013639-08:00"
+    created: "2026-01-27T09:11:45.387717-08:00"
     description: Kubernetes CronJob to backup ArgoCD with `argocd admin export` cmd
       and upload to S3 compatible storage
     digest: 9250f8ed8598ea306e5ddcd88b22f21a84b73a876f7a9e562276eee3c678f386
@@ -15,7 +15,7 @@ entries:
   discourse:
   - apiVersion: v2
     appVersion: 3.4.0
-    created: "2026-01-27T08:59:29.015064-08:00"
+    created: "2026-01-27T09:11:45.388112-08:00"
     description: A Helm chart for deploying Discourse on Kubernetes
     digest: b9f8cac22cfd417554eb9a883008de12676da2602401a9a489dd19aee8cd7c2d
     home: https://www.discourse.org/
@@ -36,7 +36,7 @@ entries:
   mysqldump:
   - apiVersion: v2
     appVersion: v3.2.13
-    created: "2026-01-27T08:59:29.015763-08:00"
+    created: "2026-01-27T09:11:45.388627-08:00"
     description: A Helm chart to help backup MySQL databases using mysqldump
     digest: fe84b4f504e1ae587f30d57010d5ced20f41dffba375ba0e5ffa01838abe345f
     home: https://www.mysql.com/
@@ -60,7 +60,7 @@ entries:
   pgadmin:
   - apiVersion: v2
     appVersion: "9.9"
-    created: "2026-01-27T08:59:29.01697-08:00"
+    created: "2026-01-27T09:11:45.389905-08:00"
     description: A Helm chart for deploying pgAdmin 4 on Kubernetes
     digest: a0e89cb4fffa3051f0a098d6fcd4b53f83bc6d5d7ccec75221cbdf524d816891
     home: https://www.pgadmin.org/
@@ -82,7 +82,7 @@ entries:
   phpbb:
   - apiVersion: v2
     appVersion: "3.3"
-    created: "2026-01-27T08:59:29.017626-08:00"
+    created: "2026-01-27T09:11:45.390258-08:00"
     description: A lightweight, Bitnami-free Helm chart to deploy phpBB with persistent
       storage.
     digest: f4f2a9cec0e70ec5e9c0633e249cd61f215cf4b8c368de7cb519ff1b94214326
@@ -103,7 +103,7 @@ entries:
   postgresql:
   - apiVersion: v2
     appVersion: "18.1"
-    created: "2026-01-27T08:59:29.018827-08:00"
+    created: "2026-01-27T09:11:45.39081-08:00"
     description: A Helm chart for deploying PostgreSQL on Kubernetes
     digest: 007703aa5d2456cc2f91d2f2d1950bf9751ef66a470c337e63db558629170448
     home: https://www.postgresql.org/
@@ -123,7 +123,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: "18.1"
-    created: "2026-01-27T08:59:29.018122-08:00"
+    created: "2026-01-27T09:11:45.390551-08:00"
     description: A Helm chart for deploying PostgreSQL on Kubernetes
     digest: 59b7712a6def4acaaab93ff1c4816d3b974740810d048fe4332cb96106a70a3c
     home: https://www.postgresql.org/
@@ -144,7 +144,7 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: "8.0"
-    created: "2026-01-27T08:59:29.01953-08:00"
+    created: "2026-01-27T09:11:45.391625-08:00"
     description: A Helm chart for deploying Redis on Kubernetes
     digest: fe8deafaed4118f5e0e6333da547d670fb637d7a1e0ae64a9421fd86cffe247f
     home: https://redis.io/
@@ -164,7 +164,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "8.0"
-    created: "2026-01-27T08:59:29.019159-08:00"
+    created: "2026-01-27T09:11:45.391073-08:00"
     description: A Helm chart for deploying Redis on Kubernetes
     digest: b16691067eceb105de3475403afb364cd5d5ebdc91a078f9c7728dbf8f06bd0e
     home: https://redis.io/
@@ -185,9 +185,29 @@ entries:
   ubuntu:
   - apiVersion: v2
     appVersion: "24.04"
-    created: "2026-01-27T08:59:29.021247-08:00"
+    created: "2026-01-27T09:11:45.392806-08:00"
     description: A Helm chart for deploying Ubuntu on Kubernetes
-    digest: 0a3fdcd3fb49c83132fd535663fde3b1ca224e11fdf0a32551782214df74fe55
+    digest: ecfc1fdbf14ac3fc9404ab973ea096e00fc65281c026f699475b516d7eeb6b72
+    home: https://ubuntu.com/
+    keywords:
+    - ubuntu
+    - linux
+    - debug
+    - shell
+    maintainers:
+    - name: homelab
+    name: ubuntu
+    sources:
+    - https://hub.docker.com/_/ubuntu
+    type: application
+    urls:
+    - ubuntu-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: "24.04"
+    created: "2026-01-27T09:11:45.392525-08:00"
+    description: A Helm chart for deploying Ubuntu on Kubernetes
+    digest: bcd2835f522c51ae8495a0c723046ac21aeea57be7d3768497da37bd566cc9aa
     home: https://ubuntu.com/
     keywords:
     - ubuntu
@@ -205,7 +225,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "24.04"
-    created: "2026-01-27T08:59:29.019817-08:00"
+    created: "2026-01-27T09:11:45.391856-08:00"
     description: A Helm chart for deploying Ubuntu on Kubernetes
     digest: bd0eed11c8f41ce70a5e885956a4916a2b9d43c14880d61e88660e1f29004a0b
     home: https://ubuntu.com/
@@ -223,4 +243,4 @@ entries:
     urls:
     - ubuntu-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-27T08:59:29.012687-08:00"
+generated: "2026-01-27T09:11:45.385962-08:00"
