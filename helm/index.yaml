@@ -3,7 +3,7 @@ entries:
   argocd-backup-s3:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-05-31T11:22:52.988669-07:00"
+    created: "2026-08-27T21:54:23.159683-07:00"
     description: Kubernetes CronJob to backup ArgoCD with `argocd admin export` cmd
       and upload to S3 compatible storage
     digest: 9250f8ed8598ea306e5ddcd88b22f21a84b73a876f7a9e562276eee3c678f386
@@ -15,7 +15,7 @@ entries:
   discourse:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-05-31T11:22:52.990969-07:00"
+    created: "2026-08-27T21:54:23.161478-07:00"
     description: A Helm chart for deploying Discourse on Kubernetes
     digest: d53dfd804009d38518472335f8081bbb74517f223189cc903f18d27e117d38da
     home: https://www.discourse.org/
@@ -36,7 +36,7 @@ entries:
   eufy-security-ws:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-05-31T11:22:52.991482-07:00"
+    created: "2026-08-27T21:54:23.161974-07:00"
     description: A Helm chart for Kubernetes
     digest: 3bc9da7a62c989a4963aae54c52bcece00246e0d63c7494db2ec65d9299788f6
     name: eufy-security-ws
@@ -47,7 +47,7 @@ entries:
   mysqldump:
   - apiVersion: v2
     appVersion: v3.2.13
-    created: "2026-05-31T11:22:52.992268-07:00"
+    created: "2026-08-27T21:54:23.162569-07:00"
     description: A Helm chart to help backup MySQL databases using mysqldump
     digest: fe84b4f504e1ae587f30d57010d5ced20f41dffba375ba0e5ffa01838abe345f
     home: https://www.mysql.com/
@@ -71,7 +71,7 @@ entries:
   pgadmin:
   - apiVersion: v2
     appVersion: "9.9"
-    created: "2026-05-31T11:22:52.992733-07:00"
+    created: "2026-08-27T21:54:23.162992-07:00"
     description: A Helm chart for deploying pgAdmin 4 on Kubernetes
     digest: a0e89cb4fffa3051f0a098d6fcd4b53f83bc6d5d7ccec75221cbdf524d816891
     home: https://www.pgadmin.org/
@@ -93,7 +93,27 @@ entries:
   phpbb:
   - apiVersion: v2
     appVersion: "3.3"
-    created: "2026-05-31T11:22:52.993397-07:00"
+    created: "2026-08-27T21:54:23.163526-07:00"
+    description: A lightweight, Bitnami-free Helm chart to deploy phpBB with persistent
+      storage.
+    digest: ed1f6844a5d0ea470c2213d57af8caf7fbbb9c43e405a8aa5d863f5af3b07545
+    home: https://www.phpbb.com/
+    keywords:
+    - phpbb
+    - forum
+    - bulletin-board
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: example@example.com
+      name: ChatGPT
+    name: phpbb
+    type: application
+    urls:
+    - phpbb-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v2
+    appVersion: "3.3"
+    created: "2026-08-27T21:54:23.163974-07:00"
     description: A lightweight, Bitnami-free Helm chart to deploy phpBB with persistent
       storage.
     digest: f4f2a9cec0e70ec5e9c0633e249cd61f215cf4b8c368de7cb519ff1b94214326
@@ -114,7 +134,7 @@ entries:
   postgresql:
   - apiVersion: v2
     appVersion: "18"
-    created: "2026-05-31T11:22:52.994116-07:00"
+    created: "2026-08-27T21:54:23.164845-07:00"
     description: A Helm chart for deploying PostgreSQL on Kubernetes
     digest: 44acb2a8a998da154eb871f20772e2f947c78818c9ec25f31ec28aa71e868f41
     home: https://www.postgresql.org/
@@ -134,7 +154,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: "18"
-    created: "2026-05-31T11:22:52.993756-07:00"
+    created: "2026-08-27T21:54:23.164283-07:00"
     description: A Helm chart for deploying PostgreSQL on Kubernetes
     digest: e28a58053825367e8bea9248c4d3e2416b8294eaaf75efc56b24fe3c3efdb976
     home: https://www.postgresql.org/
@@ -155,7 +175,7 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: "8.0"
-    created: "2026-05-31T11:22:52.99475-07:00"
+    created: "2026-08-27T21:54:23.165642-07:00"
     description: A Helm chart for deploying Redis on Kubernetes
     digest: fe8deafaed4118f5e0e6333da547d670fb637d7a1e0ae64a9421fd86cffe247f
     home: https://redis.io/
@@ -175,7 +195,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "8.0"
-    created: "2026-05-31T11:22:52.994409-07:00"
+    created: "2026-08-27T21:54:23.165324-07:00"
     description: A Helm chart for deploying Redis on Kubernetes
     digest: b16691067eceb105de3475403afb364cd5d5ebdc91a078f9c7728dbf8f06bd0e
     home: https://redis.io/
@@ -196,7 +216,7 @@ entries:
   selling-call:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-05-31T11:22:52.995015-07:00"
+    created: "2026-08-27T21:54:23.165889-07:00"
     description: Selling Call Next.js web app
     digest: 60c8d4e97e7a9b18f66f2afffcab745354aa05eefa30f3c31c251d6776663f41
     name: selling-call
@@ -207,7 +227,7 @@ entries:
   ubuntu:
   - apiVersion: v2
     appVersion: "24.04"
-    created: "2026-05-31T11:22:52.995685-07:00"
+    created: "2026-08-27T21:54:23.168279-07:00"
     description: A Helm chart for deploying Ubuntu on Kubernetes
     digest: 1754bf7adbf4f9a8b5395039d9fddc6975891dbe830072aa99b3b8b7dcdece1a
     home: https://ubuntu.com/
@@ -227,7 +247,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: "24.04"
-    created: "2026-05-31T11:22:52.995319-07:00"
+    created: "2026-08-27T21:54:23.166195-07:00"
     description: A Helm chart for deploying Ubuntu on Kubernetes
     digest: 2baa21cd1ad0061393604c528b78dcc498a178d55a1d600900606a877a2f58b0
     home: https://ubuntu.com/
@@ -245,4 +265,4 @@ entries:
     urls:
     - ubuntu-0.1.4.tgz
     version: 0.1.4
-generated: "2026-05-31T11:22:52.987925-07:00"
+generated: "2026-08-27T21:54:23.157379-07:00"
